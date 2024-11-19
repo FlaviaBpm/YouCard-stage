@@ -1,0 +1,38 @@
+.card-agenda-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 20px 100px;
+  }
+  
+  .card-agenda {
+    background-color: white;
+    border-radius: 19px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid #038D9A;
+  }
+  .card-agenda:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-placeholder {
+    background-color: #d3d3d3;
+    border-radius: 19px;
+    
+    height: 190px;
+    margin-bottom: 15px;
+  }
+  
+  .card-agenda h3{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .card-agenda p {
+    color: #666;
+    font-size: 0.9em;
+  }
+  

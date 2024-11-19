@@ -1,0 +1,78 @@
+.container-cnx {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+.container-connexion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(224,220,247);
+    border-radius: 10px;
+    width: 500px;
+
+    margin: 0 auto;
+    padding: 0 auto;
+    padding: 50px;
+    gap: 15px;
+}
+
+.container-input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inpt-cnx {
+    border-radius:15px;
+    border: white;
+    height: 30px;
+    width: 250px;
+
+}
+.inpt-cnx::placeholder {
+    padding: 10px;
+    
+}
+
+.btn-cnx {
+    background-color: black;
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+    width: 130px;
+    border: black;
+    margin-top: 20px;
+}
+
+.btn-cnx:hover {
+    background-color: rgb(55, 55, 55);
+    cursor: pointer;
+}
+
+
+
+.input-chbx {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+
+.img-rsx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    gap: 20px;
+
+}
+
+
+.inscription-color {
+    color: rgb(3,141,154);
+}

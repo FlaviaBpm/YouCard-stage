@@ -1,0 +1,60 @@
+
+  .sa-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+  }
+  
+  .filtre-actu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .filtre-actu p {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .searchbox-a {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .searchbox-a input {
+    width: 500px;
+    padding:  10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .dropdown-date {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .dropdown-date select {
+    padding: 10px;;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .btn-filtre {
+    background-color: #009d9d;
+    color: white;
+    font-weight: 600;
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 80px;
+  }
+  
+  .btn-filtre:hover {
+    background-color: #007c7c;
+  }
+  

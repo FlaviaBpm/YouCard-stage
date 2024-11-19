@@ -1,0 +1,91 @@
+.PartCont {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .part-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 25px;
+    box-sizing: border-box;
+  }
+  
+  .part-text {
+    flex: 1;
+    margin: 0 20px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .part-text h2 {
+    color:#038D9A ;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .form-section {
+    flex: 1;
+    margin: 0 20px;
+    padding: 20px;
+
+    box-sizing: border-box;
+  }
+  
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-section [type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .btn-form {
+    display: block;
+    padding: 10px 40px;
+    background-color: #038D9A;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+.btn-form:hover {
+    background-color: #057079;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .form-col {
+    flex: 1;
+  }
+
+  .form-add {
+    flex: 3; 
+  }
+  .form-num {
+    flex: 1; 
+  }

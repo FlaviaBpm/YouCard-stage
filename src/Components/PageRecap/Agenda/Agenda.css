@@ -1,0 +1,28 @@
+.texte-agenda {
+    color: #038D9A;
+    padding-right: 1040px;
+    padding-bottom: 10px;
+
+}
+
+.img-agenda {
+    width: 300px;
+}
+.container-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.container-recap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+    border: 1px solid #707070;
+    width: 1200px;
+    border-radius: 10px;
+   
+}

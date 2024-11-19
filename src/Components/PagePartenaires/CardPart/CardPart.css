@@ -1,0 +1,40 @@
+.card-part-container{
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    flex: 0 1 35%;
+    margin: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.card-part-container h2{
+    color: #038D9A;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+
+.card-part-container p{
+    margin: 10px 0;
+    display: flex;
+}
+.card-part-container p svg {
+    margin-right: 10px;
+  }
+
+.btn-part{
+    display: inline-block;
+    background-color: #038D9A;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+
+    
+}

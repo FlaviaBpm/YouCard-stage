@@ -1,0 +1,13 @@
+.image-carte {
+    background-color: rgb(239, 218, 185);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rebeccapurple;
+    height: 250px;
+}
+
+span {
+    font-size: 24px;
+    font-weight: bold; 
+}

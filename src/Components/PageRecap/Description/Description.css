@@ -1,0 +1,23 @@
+.description {
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    padding: 20px; /* Ajustez selon vos besoins */
+}
+
+.texte {
+    margin: 10px 0; /* Espace entre les paragraphes */
+    text-align: left; /* Aligne le texte à gauche */
+    display: flex; /* Permet de centrer le texte dans le div */
+    max-width: 1100px; /* Largeur maximale du texte */
+    width: 100%; /* Prend toute la largeur disponible */
+
+    
+}
+.description p {
+    color: black;
+}
+
+.description p:last-child {
+    margin-bottom: 0; /* Enlève le margin du dernier paragraphe */
+}

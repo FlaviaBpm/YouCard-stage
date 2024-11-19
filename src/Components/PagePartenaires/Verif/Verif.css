@@ -1,0 +1,41 @@
+.blob {
+   display: flex;
+    height: 70px;
+    width: 70px;
+    background-color: #038D9A;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+
+}
+.numb {
+    display: flex;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+ .blob2 .numb{
+    color: #038D9A;
+ }
+.blob2{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+.line {
+    height: 4px;
+    border-radius: 15px;
+    width: 200px;
+    background-color: #707070;
+    margin: 0 30px;
+}
+.verif-part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+

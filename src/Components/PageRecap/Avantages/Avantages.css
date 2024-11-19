@@ -1,0 +1,80 @@
+a {
+    color: rgb(255, 255, 255);
+
+}
+.btn-av {
+    background-color: #030d9a;
+    border: 1px solid #030d9a;
+    border-radius: 10px;
+    height: 35px;
+    width: 1000px;
+    
+}
+.container {
+    display: flex;
+    align-items: center;
+   
+}
+
+.titre-av {
+    padding-right: 1000px;
+    color: #038D9A;
+}
+.accordion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 50vh;
+
+    max-width: 1300px;
+}
+
+.accordion .contentbox {
+    position: relative;
+    margin: 10px 20px;
+}
+
+.accordion .contentbox .label {
+    position: relative;
+    padding: 10px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 1200px;
+}
+
+.accordion .contentbox .label::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+
+.accordion .contentbox.active .label::before {
+    content: '-';
+}
+
+
+.accordion .contentbox .content {
+    position: relative;
+    /* padding: 10px; */
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+
+}
+
+.accordion .contentbox.active .content {
+    height: 120px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
